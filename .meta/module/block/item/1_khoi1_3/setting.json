@@ -1,0 +1,52 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      },
+      {
+        "min": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "39405a02-7f90-438d-9dc6-723e7affd63f"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/jungle_stairs03_down"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bf3d1c6b59a78a99c4a20709b6858a55",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
