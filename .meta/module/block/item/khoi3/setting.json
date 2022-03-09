@@ -1,0 +1,40 @@
+{
+  "data": {
+    "name": {
+      "value": "block_khoi3"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      },
+      "down": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      },
+      "front": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      },
+      "left": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      },
+      "right": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      },
+      "up": {
+        "asset": "asset/khoi/4.png",
+        "selector": "editor/DreamWorld/asset/khoi/4.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9bbb157e14559fba102a90a50c763c9b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

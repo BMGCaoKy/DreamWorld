@@ -1,0 +1,41 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_khoi1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      },
+      "down": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      },
+      "front": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      },
+      "left": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      },
+      "right": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      },
+      "up": {
+        "asset": "asset/khoi/luoiThep.png",
+        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "06054dbcd59c579178a9ca05602d2eba",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      },
+      {
+        "min": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "9ee41dec-311a-4d5c-920b-379cf2382c4b"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/sandstone_stairs"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3b5519ee602a03e6ddb213f83c8d47d0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

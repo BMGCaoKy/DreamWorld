@@ -7,11 +7,31 @@
     "isQuad": true,
     "name": {
       "value": "block_pine_stage_3"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/pine_stage_3"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "247435fb9687d99b6d67c8e76da6e811",
+      "setting.json": "9f5a5cdcc20313ab7117c2f1243ef1d4",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

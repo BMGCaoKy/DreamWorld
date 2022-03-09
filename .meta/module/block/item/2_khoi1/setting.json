@@ -1,0 +1,46 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "9428ef4b-6036-4533-bd5d-862d08d24c81"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f200d0f657b7ea63bf7f995e87ef1123",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

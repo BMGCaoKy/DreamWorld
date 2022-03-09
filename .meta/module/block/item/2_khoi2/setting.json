@@ -1,0 +1,46 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "34f02040-5ff8-49dc-8324-d3561a65ce8e"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/wooden_slab_8"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bb6cddaa7c290b511ecb950add4bf012",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

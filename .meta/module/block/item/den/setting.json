@@ -1,0 +1,40 @@
+{
+  "data": {
+    "name": {
+      "value": "block_den"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      },
+      "down": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      },
+      "front": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      },
+      "left": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      },
+      "right": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      },
+      "up": {
+        "asset": "asset/khoi/spruce_backden (1).png",
+        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "50e63213d90ab77464c9331f45e55c23",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

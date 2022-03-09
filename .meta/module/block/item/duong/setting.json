@@ -1,0 +1,40 @@
+{
+  "data": {
+    "name": {
+      "value": "block_duong"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      },
+      "down": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      },
+      "front": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      },
+      "left": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      },
+      "right": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      },
+      "up": {
+        "asset": "asset/khoi/roadnoise.png",
+        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bca7c6f45d4dc25ce355cfcf3bea0515",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

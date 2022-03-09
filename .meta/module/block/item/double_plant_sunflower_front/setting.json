@@ -16,11 +16,31 @@
     "isQuad": true,
     "name": {
       "value": "block_double_plant_sunflower_front"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/double_plant_sunflower_front"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a12fa4db2e5af389b9e260667a7c2f32",
+      "setting.json": "f5f458cd7d1772df99fc7361e6d5e4bf",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
