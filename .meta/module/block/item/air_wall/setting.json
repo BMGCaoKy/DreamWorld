@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -30,7 +31,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "411f45a6a5d38406714e6187357d7041",
+      "setting.json": "dc952386477aa0dd8bbc0e3f7303ddfc",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

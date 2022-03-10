@@ -1,6 +1,6 @@
 {
   "base": "oak_stairs",
-  "breakTime": 20,
+  "breakTime": false,
   "canClick": false,
   "candrop": false,
   "canSwim": false,

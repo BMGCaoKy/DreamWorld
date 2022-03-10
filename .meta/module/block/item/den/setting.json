@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "name": {
       "value": "block_den"
     },
@@ -32,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "50e63213d90ab77464c9331f45e55c23",
+      "setting.json": "751f03e7f12390d2556ffca03ae88bc6",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

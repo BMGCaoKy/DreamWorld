@@ -1,6 +1,6 @@
 {
   "base": "oak_stairs",
-  "breakTime": 20,
+  "breakTime": false,
   "canClick": false,
   "candrop": false,
   "canSwim": false,
@@ -53,11 +53,11 @@
   },
   "spring": 0,
   "texture": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "/block/1_khoi1",
+    "/block/1_khoi1",
+    "/block/1_khoi1",
+    "/block/1_khoi1",
+    "/block/1_khoi1",
+    "/block/1_khoi1"
   ]
 }

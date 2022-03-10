@@ -1,6 +1,6 @@
 {
   "base": "base_block",
-  "breakTime": 20,
+  "breakTime": false,
   "canBreak": false,
   "canClick": false,
   "candrop": false,
@@ -36,11 +36,11 @@
   "renderable": false,
   "spring": 0,
   "texture": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "/block/air_wall",
+    "/block/air_wall",
+    "/block/air_wall",
+    "/block/air_wall",
+    "/block/air_wall",
+    "/block/air_wall"
   ]
 }

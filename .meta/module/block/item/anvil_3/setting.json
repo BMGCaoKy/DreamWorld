@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "collisionBoxes": [],
     "dropSelf": {
       "canDropSelf": false
@@ -32,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d7945b8b9df036d53a66321ae90d2e91",
+      "setting.json": "9e205d64f44fe3991e669b802874692f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

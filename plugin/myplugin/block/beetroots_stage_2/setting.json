@@ -1,5 +1,5 @@
 {
-  "breakTime": 20,
+  "breakTime": false,
   "canClick": false,
   "candrop": false,
   "canSwim": false,
@@ -68,11 +68,11 @@
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "/block/beetroots_stage_2",
+    "/block/beetroots_stage_2",
+    "/block/beetroots_stage_2",
+    "/block/beetroots_stage_2",
+    "/block/beetroots_stage_2",
+    "/block/beetroots_stage_2"
   ]
 }

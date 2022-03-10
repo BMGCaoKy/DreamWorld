@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_viahe"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      },
+      "down": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      },
+      "front": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      },
+      "left": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      },
+      "right": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      },
+      "up": {
+        "asset": "asset/khoi/nengach.png",
+        "selector": "editor/DreamWorld/asset/khoi/nengach.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1870a24ca11178eaca3c98cf7688398",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
