@@ -1,0 +1,40 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "af803c48-50cb-4d01-bfff-f2a54095dffa"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      },
+      "left": {
+        "asset": "asset/khoi/cayxang.png",
+        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+      },
+      "right": {
+        "asset": "asset/khoi/cayxang.png",
+        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "83b12186e311d7a0a79f8d224354392e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
