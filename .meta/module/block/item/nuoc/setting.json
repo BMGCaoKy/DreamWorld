@@ -1,0 +1,40 @@
+{
+  "data": {
+    "canSwim": true,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "ddb75ece-57ea-405b-9831-b6f1c50c2f6d"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/nuoc.png"
+      },
+      "down": {
+        "asset": "plugin/myplugin/nuoc.png"
+      },
+      "front": {
+        "asset": "plugin/myplugin/nuoc.png"
+      },
+      "left": {
+        "asset": "plugin/myplugin/nuoc.png"
+      },
+      "right": {
+        "asset": "plugin/myplugin/nuoc.png"
+      },
+      "up": {
+        "asset": "plugin/myplugin/nuoc.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "737a89fcd020ccae79ea23330bb40b9c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

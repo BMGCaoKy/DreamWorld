@@ -1,0 +1,40 @@
+{
+  "data": {
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "e3f8a90e-5157-431d-a133-f4b041063003"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bc0365c57ec9a6b13290f5974b69de49",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
