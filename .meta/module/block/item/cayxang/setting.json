@@ -9,13 +9,15 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+        "asset": "asset/khoi/cayxang.png",
+        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
       },
       "down": {
         "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+        "asset": "asset/khoi/cayxang.png",
+        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
       },
       "left": {
         "asset": "asset/khoi/cayxang.png",
@@ -32,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "83b12186e311d7a0a79f8d224354392e",
+      "setting.json": "7a70fe7c99f7290e699123dfd72adcc5",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

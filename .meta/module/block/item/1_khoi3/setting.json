@@ -20,32 +20,32 @@
     "isOpaqueFullCube": false,
     "isQuad": true,
     "name": {
-      "value": "5b4e2c0f-8372-4809-8847-0eada0941f14"
+      "value": "c0029fae-2e35-4c00-9336-330c898c2194"
     },
     "textures": {
       "back": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       },
       "down": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       },
       "front": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       },
       "left": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       },
       "right": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       },
       "up": {
-        "asset": "plugin/myplugin/block/sandstone_stairs01"
+        "asset": "plugin/myplugin/block/jungle_stairs02"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4fac653d9351adc38af8ffa5f2187c26",
+      "setting.json": "d8aae1e60c54bee1bf87f2fb8c1a5aee",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

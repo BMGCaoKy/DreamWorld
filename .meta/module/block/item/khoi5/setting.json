@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "name": {
       "value": "block_khoi5"
     },
@@ -32,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bda2af636860251308cd28c612bf28b0",
+      "setting.json": "aaed93634589af0f083dd3f822f1a291",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

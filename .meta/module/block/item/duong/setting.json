@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "name": {
       "value": "block_duong"
     },
@@ -32,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bca7c6f45d4dc25ce355cfcf3bea0515",
+      "setting.json": "3870e8234b0ecbd44185fe790e1e4259",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

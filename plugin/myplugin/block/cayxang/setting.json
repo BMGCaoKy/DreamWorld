@@ -32,8 +32,8 @@
   "texture": [
     "@asset/Texture/Block/hardened_clay_stained_white.png",
     "@asset/Texture/Block/hardened_clay_stained_white.png",
-    "@asset/Texture/Block/hardened_clay_stained_white.png",
-    "@asset/Texture/Block/hardened_clay_stained_white.png",
+    "@asset/khoi/cayxang.png",
+    "@asset/khoi/cayxang.png",
     "@asset/khoi/cayxang.png",
     "@asset/khoi/cayxang.png"
   ]

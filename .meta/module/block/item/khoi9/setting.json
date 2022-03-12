@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_khoi9"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/chaucay.png",
+        "selector": "editor/DreamWorld/asset/khoi/chaucay.png"
+      },
+      "down": {
+        "asset": "asset/khoi/chaucay.png",
+        "selector": "editor/DreamWorld/asset/khoi/chaucay.png"
+      },
+      "front": {
+        "asset": "asset/khoi/chaucay.png",
+        "selector": "editor/DreamWorld/asset/khoi/chaucay.png"
+      },
+      "left": {
+        "asset": "asset/khoi/chaucay.png",
+        "selector": "editor/DreamWorld/asset/khoi/chaucay.png"
+      },
+      "right": {
+        "asset": "asset/khoi/chaucay.png",
+        "selector": "editor/DreamWorld/asset/khoi/chaucay.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/clay.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/clay.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ca9b842e7f3bcc6efca86aa52f83fd27",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

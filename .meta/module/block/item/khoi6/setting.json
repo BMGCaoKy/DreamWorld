@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "name": {
       "value": "43535487-3e8e-45fd-84f6-0f43ed44915c"
     },
@@ -32,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4c7f9036fecff8d64275ff40773a654c",
+      "setting.json": "04663a8e5ceb84a34efaf72ce91b141c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "da52cbeb-f782-4d01-a690-6a030ae47cc5"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_red.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/concrete_red.png"
+      },
+      "right": {
+        "asset": "asset/khoi/hpad.png",
+        "selector": "editor/DreamWorld/asset/khoi/hpad.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c6783c831bb9a0aad9316ba2e1623a1c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

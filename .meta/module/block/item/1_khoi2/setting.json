@@ -20,32 +20,32 @@
     "isOpaqueFullCube": false,
     "isQuad": true,
     "name": {
-      "value": "9ee41dec-311a-4d5c-920b-379cf2382c4b"
+      "value": "9af98e40-6d30-494f-8e8e-62906121380e"
     },
     "textures": {
       "back": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       },
       "down": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       },
       "front": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       },
       "left": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       },
       "right": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       },
       "up": {
-        "asset": "plugin/myplugin/block/sandstone_stairs"
+        "asset": "plugin/myplugin/block/jungle_stairs01"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "66604afc673a4d1826b9d969022ce53e",
+      "setting.json": "b3d9b474b3739832888be59948b6c933",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

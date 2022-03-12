@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_khoi8"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      },
+      "down": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      },
+      "front": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      },
+      "left": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      },
+      "right": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      },
+      "up": {
+        "asset": "asset/khoi/maudo.png",
+        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "33f0384f508408bbff3a73a4a0dd9fac",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

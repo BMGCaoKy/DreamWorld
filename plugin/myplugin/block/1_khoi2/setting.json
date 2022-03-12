@@ -37,7 +37,7 @@
       }
     }
   ],
-  "defaultTexture": "/block/sandstone_stairs/sandstone.png",
+  "defaultTexture": "/block/jungle_stairs/concrete_powder_yellow.png",
   "dropCount": 1,
   "dropSelf": false,
   "fall": false,
@@ -48,16 +48,16 @@
   "recycleTime": 20,
   "rotation": {
     "x": 0,
-    "y": 0,
+    "y": 270,
     "z": 0
   },
   "spring": 0,
   "texture": [
-    "/block/sandstone_stairs",
-    "/block/sandstone_stairs",
-    "/block/sandstone_stairs",
-    "/block/sandstone_stairs",
-    "/block/sandstone_stairs",
-    "/block/sandstone_stairs"
+    "/block/jungle_stairs01",
+    "/block/jungle_stairs01",
+    "/block/jungle_stairs01",
+    "/block/jungle_stairs01",
+    "/block/jungle_stairs01",
+    "/block/jungle_stairs01"
   ]
 }
