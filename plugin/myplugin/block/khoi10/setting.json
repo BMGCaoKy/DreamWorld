@@ -30,11 +30,11 @@
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "@asset/khoi/khoi1.png",
-    "@asset/khoi/khoi1.png",
-    "@asset/khoi/khoi1.png",
-    "@asset/khoi/khoi1.png",
-    "@asset/khoi/khoi1.png",
-    "@asset/khoi/khoi1.png"
+    "@asset/khoi/gach.png",
+    "@asset/khoi/gach.png",
+    "@asset/khoi/gach.png",
+    "@asset/khoi/gach.png",
+    "@asset/khoi/gach.png",
+    "@asset/khoi/gach.png"
   ]
 }

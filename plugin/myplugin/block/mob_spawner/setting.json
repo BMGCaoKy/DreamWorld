@@ -24,6 +24,7 @@
   "dropCount": 1,
   "dropSelf": false,
   "fall": false,
+  "isOpaqueFullCube": false,
   "maxFallSpeed": 1.5,
   "maxSpeed": 500.0,
   "recycle": false,

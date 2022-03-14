@@ -3,6 +3,7 @@
     "dropSelf": {
       "canDropSelf": false
     },
+    "isOpaqueFullCube": false,
     "name": {
       "value": "block_mob_spawner"
     },
@@ -29,7 +30,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4977642a0a72816340073760442ede06",
+      "setting.json": "013a057d6ba729d8f62b2791353c3749",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
