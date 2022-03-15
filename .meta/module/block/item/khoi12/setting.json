@@ -1,0 +1,34 @@
+{
+  "data": {
+    "name": {
+      "value": "acb244ca-cc5f-4425-94da-946f11400da5"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/adwadwpn.png"
+      },
+      "down": {
+        "asset": "asset/khoi/adwadwpn.png"
+      },
+      "front": {
+        "asset": "asset/khoi/adwadwpn.png"
+      },
+      "left": {
+        "asset": "asset/khoi/adwadwpn.png"
+      },
+      "right": {
+        "asset": "asset/khoi/adwadwpn.png"
+      },
+      "up": {
+        "asset": "asset/khoi/adwadwpn.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f2ea147347f15c07f01b175a5902a2bb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

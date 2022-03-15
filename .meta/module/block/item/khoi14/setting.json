@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "227f7d3e-6d02-41fa-8904-2e91a365b7ba"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      },
+      "down": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      },
+      "front": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      },
+      "left": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      },
+      "right": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      },
+      "up": {
+        "asset": "asset/khoi/qlewjq.png",
+        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9b6a6f60ff754ffadccb377c88cb33d2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

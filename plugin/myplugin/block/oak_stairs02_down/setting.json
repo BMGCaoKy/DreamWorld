@@ -52,11 +52,11 @@
   },
   "spring": 0,
   "texture": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "/block/oak_stairs02_down",
+    "/block/oak_stairs02_down",
+    "/block/oak_stairs02_down",
+    "/block/oak_stairs02_down",
+    "/block/oak_stairs02_down",
+    "/block/oak_stairs02_down"
   ]
 }
