@@ -22,7 +22,7 @@
     }
   ],
   "dropCount": 1,
-  "dropSelf": false,
+  "dropSelf": true,
   "fall": false,
   "maxFallSpeed": 1.5,
   "maxSpeed": 500.0,
@@ -30,11 +30,11 @@
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "@asset/Texture/Block/hardened_clay_stained_brown.png",
-    "@asset/Texture/Block/hardened_clay_stained_brown.png",
-    "@asset/Texture/Block/hardened_clay_stained_brown.png",
-    "@asset/Texture/Block/hardened_clay_stained_brown.png",
-    "@asset/Texture/Block/hardened_clay_stained_brown.png",
-    "@asset/Texture/Block/hardened_clay_stained_brown.png"
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
+    "@asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
   ]
 }

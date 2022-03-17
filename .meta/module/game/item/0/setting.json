@@ -25,9 +25,9 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": -43.0,
-        "y": 53.0,
-        "z": 50.0
+        "x": -171.0,
+        "y": 61.0,
+        "z": -35.0
       }
     },
     "unlimitedPlayTime": true,
@@ -43,7 +43,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dcb420520a5451151b260eeba30a02ae",
+      "setting.json": "2585943442807004121cc95477e8ff31",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },
