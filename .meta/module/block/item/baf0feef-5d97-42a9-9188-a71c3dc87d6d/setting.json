@@ -9,8 +9,7 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/crafting_table_front.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/crafting_table_front.png"
+        "asset": "asset/Texture/Block/crafting_table_front.png"
       },
       "down": {
         "asset": "asset/Texture/Block/crafting_table_top.png"
@@ -19,12 +18,10 @@
         "asset": "asset/Texture/Block/crafting_table_front.png"
       },
       "left": {
-        "asset": "asset/Texture/Block/crafting_table_front.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/crafting_table_front.png"
+        "asset": "asset/Texture/Block/crafting_table_front.png"
       },
       "right": {
-        "asset": "asset/Texture/Block/crafting_table_front.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/crafting_table_front.png"
+        "asset": "asset/Texture/Block/crafting_table_front.png"
       },
       "up": {
         "asset": "asset/Texture/Block/crafting_table_top.png"
@@ -33,7 +30,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fa52d2fa0d32ea23b09247d0684cd21f",
+      "setting.json": "f1c312c52aaa0e96e3ca6cb3e74631e4",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

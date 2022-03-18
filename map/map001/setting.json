@@ -1,6 +1,41 @@
 {
   "canBreak": true,
   "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/npc-job",
+      "properties": {
+        "id": "8546325473651048449",
+        "name": "NPC Job",
+        "position": "x:-31.51 y:53.01 z:26.04",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    },
+    {
+      "class": "RegionPart",
+      "properties": {
+        "cfgName": "myplugin/7c90d499-6e36-46a6-a37d-162e8449cbc6",
+        "id": "8546337266783453185",
+        "name": "CheckPlayer",
+        "position": "x:-31.621391296387 y:53.5 z:26.00835609436",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3.43265 y:0.999996 z:3.37061"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/rock",
+      "properties": {
+        "id": "8547131323626668033",
+        "name": "rock",
+        "position": "x:-30.206886291504 y:53.0 z:69.337455749512",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    }
+  ],
   "skyBox": [
     {
       "texture": [

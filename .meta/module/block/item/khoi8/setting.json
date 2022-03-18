@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       },
       "down": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       },
       "front": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       },
       "left": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       },
       "right": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       },
       "up": {
-        "asset": "asset/khoi/maudo.png",
-        "selector": "editor/DreamWorld/asset/khoi/maudo.png"
+        "asset": "asset/khoi/maudo.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "33f0384f508408bbff3a73a4a0dd9fac",
+      "setting.json": "930bb67e16c40bf4ca119699e4e0fa0c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

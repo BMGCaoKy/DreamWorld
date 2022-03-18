@@ -7,34 +7,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       },
       "down": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       },
       "front": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       },
       "left": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       },
       "right": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       },
       "up": {
-        "asset": "asset/khoi/luoiThep.png",
-        "selector": "editor/DreamWorld/asset/khoi/luoiThep.png"
+        "asset": "asset/khoi/luoiThep.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3259ef6776ab443dbdc26fc60f70dbb2",
+      "setting.json": "4f43ac36d4a6de01a2a9c790565f232b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       },
       "down": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       },
       "front": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       },
       "left": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       },
       "right": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       },
       "up": {
-        "asset": "asset/khoi/khoiDo.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoiDo.png"
+        "asset": "asset/khoi/khoiDo.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4cfc805c5df8e2693ee0bf630ce7c72d",
+      "setting.json": "31736bdd468da45308172dc28165003c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

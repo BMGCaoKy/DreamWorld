@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       },
       "down": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       },
       "front": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       },
       "left": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       },
       "right": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       },
       "up": {
-        "asset": "asset/khoi/khoitrangvienden.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrangvienden.png"
+        "asset": "asset/khoi/khoitrangvienden.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6363377c252df52385ba4fdf55341df4",
+      "setting.json": "1fde8ae033ec35f3adcd9770b858108d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

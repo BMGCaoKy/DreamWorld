@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       },
       "down": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       },
       "front": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       },
       "left": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       },
       "right": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       },
       "up": {
-        "asset": "asset/khoi/qlewjq.png",
-        "selector": "editor/DreamWorld/asset/khoi/qlewjq.png"
+        "asset": "asset/khoi/qlewjq.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9b6a6f60ff754ffadccb377c88cb33d2",
+      "setting.json": "abe6f15c0c45921435130bdf99eb2421",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

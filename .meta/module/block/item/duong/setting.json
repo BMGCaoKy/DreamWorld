@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       },
       "down": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       },
       "front": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       },
       "left": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       },
       "right": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       },
       "up": {
-        "asset": "asset/khoi/roadnoise.png",
-        "selector": "editor/DreamWorld/asset/khoi/roadnoise.png"
+        "asset": "asset/khoi/roadnoise.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3870e8234b0ecbd44185fe790e1e4259",
+      "setting.json": "2f8eb7ba1a8fbc1b12d212468d45f009",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,0 +1,30 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/rock/g2038_rock_02.actor",
+      "selector": "editor/DreamWorld/asset/rock/g2038_rock_02.actor"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "params": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      }
+    },
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "name": {
+      "value": "entity_rock"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d791bee64ab76396ba8bc79939a1d6d3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

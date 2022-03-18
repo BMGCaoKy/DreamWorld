@@ -1,5 +1,22 @@
 print('script_client:hello world')
+UI:openWindow("Interface")
 World.Timer(10, function()
     --local guiMgr = GUIManager:Instance()
 	--local window = UI:openWindow("")
+  if UI:isOpenWindow("Interface")==false then
+    UI:openWindow("Interface")
+  end
+end)
+PackageHandlers.registerClientHandler("showGuideTarget",function(player,packet)
+  player:setGuideTarget(packet.pos,'arrow.png',0.1)
+end)
+PackageHandlers.registerClientHandler("closeGuideTarget",function(player,packet)
+  player:delGuideTarget()
+end)
+PackageHandlers.registerClientHandler("showTutorial_1",function(player,packet)
+  UI:openWindow("tutorial_1")
+end)
+
+PackageHandlers.registerClientHandler("closeTutorial_1",function(player,packet)
+  UI:closeWindow("tutorial_1")
 end)

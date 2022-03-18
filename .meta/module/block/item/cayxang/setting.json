@@ -9,23 +9,19 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/cayxang.png",
-        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+        "asset": "asset/khoi/cayxang.png"
       },
       "down": {
         "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
       },
       "front": {
-        "asset": "asset/khoi/cayxang.png",
-        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+        "asset": "asset/khoi/cayxang.png"
       },
       "left": {
-        "asset": "asset/khoi/cayxang.png",
-        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+        "asset": "asset/khoi/cayxang.png"
       },
       "right": {
-        "asset": "asset/khoi/cayxang.png",
-        "selector": "editor/DreamWorld/asset/khoi/cayxang.png"
+        "asset": "asset/khoi/cayxang.png"
       },
       "up": {
         "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
@@ -34,7 +30,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7a70fe7c99f7290e699123dfd72adcc5",
+      "setting.json": "b8b103b600d499186b775883795bd859",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

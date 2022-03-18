@@ -1,0 +1,23 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Surprised Doctor/g2020_npc35.actor",
+      "selector": "editor/DreamWorld/asset/Actor/Surprised Doctor/g2020_npc35.actor"
+    },
+    "canClick": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_npc-job"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f4e26bd7b7aa822e08a4e985608018fc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

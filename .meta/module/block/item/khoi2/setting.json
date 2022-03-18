@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       },
       "down": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       },
       "front": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       },
       "left": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       },
       "right": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       },
       "up": {
-        "asset": "asset/khoi/khoitrang.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoitrang.png"
+        "asset": "asset/khoi/khoitrang.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "516c862fab70589436e8f50c1b2700b5",
+      "setting.json": "9b44a29b7be7c2eb5f8c27bb7fb914e3",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       },
       "down": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       },
       "front": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       },
       "left": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       },
       "right": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       },
       "up": {
-        "asset": "asset/khoi/vang1231.png",
-        "selector": "editor/DreamWorld/asset/khoi/vang1231.png"
+        "asset": "asset/khoi/vang1231.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ef27ea270def835cd5a7480efc2a759f",
+      "setting.json": "ebb05d5ad6dcd12fb2848568f8387cdf",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       },
       "down": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       },
       "front": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       },
       "left": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       },
       "right": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       },
       "up": {
-        "asset": "asset/khoi/spruce_backden (1).png",
-        "selector": "editor/DreamWorld/asset/khoi/spruce_backden (1).png"
+        "asset": "asset/khoi/spruce_backden (1).png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "751f03e7f12390d2556ffca03ae88bc6",
+      "setting.json": "9fe1c0788468705b72bd96a1004a4de6",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

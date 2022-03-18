@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       },
       "down": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       },
       "front": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       },
       "left": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       },
       "right": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       },
       "up": {
-        "asset": "asset/khoi/khoixanhnhanh.png",
-        "selector": "editor/DreamWorld/asset/khoi/khoixanhnhanh.png"
+        "asset": "asset/khoi/khoixanhnhanh.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "aaed93634589af0f083dd3f822f1a291",
+      "setting.json": "2ed9774b085b3baa2b49c8912dc08e4d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
