@@ -22,20 +22,20 @@
     }
   ],
   "dropCount": 1,
-  "dropSelf": false,
+  "dropSelf": true,
   "fall": false,
+  "isOpaqueFullCube": false,
   "maxFallSpeed": 1.5,
   "maxSpeed": 500.0,
-  "needSave": true,
   "recycle": false,
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "@asset/Texture/Block/stone_stone.png",
-    "@asset/Texture/Block/stone_stone.png",
-    "@asset/Texture/Block/stone_stone.png",
-    "@asset/Texture/Block/stone_stone.png",
-    "@asset/Texture/Block/stone_stone.png",
-    "@asset/Texture/Block/stone_stone.png"
+    "@asset/khoi/oakleaves-orange.png",
+    "@asset/khoi/oakleaves-orange.png",
+    "@asset/khoi/oakleaves-orange.png",
+    "@asset/khoi/oakleaves-orange.png",
+    "@asset/khoi/oakleaves-orange.png",
+    "@asset/khoi/oakleaves-orange.png"
   ]
 }
