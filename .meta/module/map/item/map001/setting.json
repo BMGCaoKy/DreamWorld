@@ -63,8 +63,30 @@
         "name": "rock",
         "position": {
           "x": -30.206886291504,
-          "y": 53.0,
+          "y": 53,
           "z": 69.337455749512
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/bab4bc03-1f80-47c5-a25f-4d625395493b",
+        "id": "8550456922659176449",
+        "name": "Mine",
+        "position": {
+          "x": -29.93,
+          "y": 53.5,
+          "z": 63.11
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/miner",
+        "id": "8550489949212049409",
+        "name": "miner",
+        "position": {
+          "x": -29.68,
+          "y": 53,
+          "z": 62.38
         }
       }
     ],
@@ -77,7 +99,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c71ef4b2b6e58c5fffe034cf4989d7e1"
+      "setting.json": "a45fad5e60a467e00dd09a9aa0193fa1"
     },
     "VERSION": "0.18"
   }

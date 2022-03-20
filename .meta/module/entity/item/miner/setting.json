@@ -1,0 +1,25 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/miner/transfer.actor",
+      "selector": "editor/DreamWorld/asset/miner/transfer.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_miner"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4d21fdf9665934ec6dc8c4f6e5df2ec1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

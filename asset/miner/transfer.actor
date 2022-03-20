@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate Volume="0.8" MaxDistance="16" SoundName5="" MinDistance="1" SoundName2="" SoundName1="" IntervalTime="2" AttackScale="1" Skeleton="g2038_none.skel" SoundName4="" name="111.actor" WoundBone="" Originalscale="1 1 1" SoundFileNum="0" TextHeight="0" SoundName3="" WoundAngle="25" Alpha="1" SelectedRingSize="1" IsShowShadow="true">
+		<BodyParts>
+			<BodyPart SlaveName="group0" EdgeColor="1 1 1 1" MasterName="mutex_name_0" ColorParams="1 1 1 1" DefaultUse="true">
+				<Effect>
+					<Position_Y value="0"/>
+					<FileName value="asset/miner/g2038_yushanjia_red.effect"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_Z value="0"/>
+					<SocketName value="bone001"/>
+					<Position_X value="0"/>
+					<type_name value="g2038_yushanjia_red"/>
+					<pitch value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

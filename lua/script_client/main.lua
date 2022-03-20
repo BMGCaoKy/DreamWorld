@@ -20,3 +20,18 @@ end)
 PackageHandlers.registerClientHandler("closeTutorial_1",function(player,packet)
   UI:closeWindow("tutorial_1")
 end)
+
+PackageHandlers.registerClientHandler("closeUIMiner",function(player,packet)
+  UI:closeSceneWindow("UIMiner")
+end)
+PackageHandlers.registerClientHandler("showUIMiner",function(player,packet)
+  UI:openSceneWindow("UIMiner", "UIMiner", {
+    position = {x = -29.68, y =53+1.5, z = 62.38},
+    rotation = {x = 0, y =0, z =0},
+    width = 1,
+    height = 1,
+    isCullBack = false,
+    objID = 0,
+    flags = 4}, "layouts", {x = 1}
+  )
+end)
