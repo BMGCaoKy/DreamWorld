@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "collisionBoxes": [
       {
         "min": {
@@ -38,7 +39,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b0a7884fca88c73a8c170785bdbb6264",
+      "setting.json": "d6b2b1fdbd565f21707d9ae590fe0099",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,5 +1,6 @@
 {
   "data": {
+    "canBreak": false,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -8,28 +9,34 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/grass_side.png"
+        "asset": "asset/Texture/Block/grass04-2.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
       },
       "down": {
-        "asset": "asset/Texture/Block/dirt.png"
+        "asset": "asset/Texture/Block/hardened_clay_stained_silver.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/hardened_clay_stained_silver.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/grass_side.png"
+        "asset": "asset/Texture/Block/grass04-2.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
       },
       "left": {
-        "asset": "asset/Texture/Block/grass_side.png"
+        "asset": "asset/Texture/Block/grass04-2.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
       },
       "right": {
-        "asset": "asset/Texture/Block/grass_side.png"
+        "asset": "asset/Texture/Block/grass04-2.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/grass_top.png"
+        "asset": "asset/Texture/Block/grass04.png",
+        "selector": "editor/DreamWorld/asset/Texture/Block/grass04.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5f98b86e4ebd5698999cf583f6fa08c5",
+      "setting.json": "c554b1d1d7008f008c068a7184bbcc1b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

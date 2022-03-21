@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "7cd855b2-e342-48a6-bd61-308713648e56"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      },
+      "down": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      },
+      "front": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      },
+      "left": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      },
+      "right": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      },
+      "up": {
+        "asset": "asset/khoi/kiemcuong.png",
+        "selector": "editor/DreamWorld/asset/khoi/kiemcuong.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7a013f60b95e4cfe0fdbb9d93d29e457",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

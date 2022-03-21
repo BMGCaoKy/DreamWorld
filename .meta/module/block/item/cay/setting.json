@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_cay"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      },
+      "down": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      },
+      "front": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      },
+      "left": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      },
+      "right": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      },
+      "up": {
+        "asset": "asset/khoi/oakleaves-orange.png",
+        "selector": "editor/DreamWorld/asset/khoi/oakleaves-orange.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7da11f50c4d3e3968036f09649b73e32",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

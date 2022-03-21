@@ -1,5 +1,5 @@
 {
-  "breakTime": 20,
+  "breakTime": false,
   "canClick": false,
   "candrop": false,
   "canSwim": false,
@@ -30,11 +30,11 @@
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "@asset/Texture/Block/dirt.png",
-    "@asset/Texture/Block/grass_top.png",
-    "@asset/Texture/Block/grass_side.png",
-    "@asset/Texture/Block/grass_side.png",
-    "@asset/Texture/Block/grass_side.png",
-    "@asset/Texture/Block/grass_side.png"
+    "@asset/Texture/Block/hardened_clay_stained_silver.png",
+    "@asset/Texture/Block/grass04.png",
+    "@asset/Texture/Block/grass04-2.png",
+    "@asset/Texture/Block/grass04-2.png",
+    "@asset/Texture/Block/grass04-2.png",
+    "@asset/Texture/Block/grass04-2.png"
   ]
 }

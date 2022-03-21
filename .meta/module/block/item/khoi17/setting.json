@@ -1,0 +1,37 @@
+{
+  "data": {
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "129d9932-b8da-47fb-83f8-a856c4045630"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_cyan.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "edabe81bcd942c0e440b857859ed6e4b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
