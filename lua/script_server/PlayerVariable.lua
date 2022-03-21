@@ -9,7 +9,7 @@ Entity.addValueDef('NewPlayer',{
 ,false,false,true)
 
 Entity.addValueDef('Bag',{
-  maxSlot=10,
+  maxSlot=4,
   bag={
     {
       type="Material",
@@ -17,7 +17,7 @@ Entity.addValueDef('Bag',{
       name="Go nguyen",
       image="gameres|asset/Texture/Gui/gonguyen.png",
       describe="Go chua qua che tao",
-      count=12
+      count=10
     },
     {
       type="Material",

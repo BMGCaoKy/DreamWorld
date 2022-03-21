@@ -1,12 +1,17 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/Actor/Surprised Doctor/g2020_npc35.actor",
-      "selector": "editor/DreamWorld/asset/Actor/Surprised Doctor/g2020_npc35.actor"
+      "asset": "asset/Actor/Surprised Doctor/g2020_npc35.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "canClick": true,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "name": {
@@ -15,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f4e26bd7b7aa822e08a4e985608018fc",
+      "setting.json": "3c050346cba9620e76cfb7955dd68b26",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

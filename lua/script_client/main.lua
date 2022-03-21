@@ -10,6 +10,7 @@ end)
 PackageHandlers.registerClientHandler("showGuideTarget",function(player,packet)
   player:setGuideTarget(packet.pos,'arrow.png',0.1)
 end)
+
 PackageHandlers.registerClientHandler("closeGuideTarget",function(player,packet)
   player:delGuideTarget()
 end)
@@ -23,6 +24,9 @@ end)
 
 PackageHandlers.registerClientHandler("closeUIMiner",function(player,packet)
   UI:closeSceneWindow("UIMiner")
+end)
+PackageHandlers.registerClientHandler("showNotification",function(player,packet)
+  UI:openWindow("Notification","Notification","layouts",{text=packet.text, time=packet.time})
 end)
 PackageHandlers.registerClientHandler("showUIMiner",function(player,packet)
   UI:openSceneWindow("UIMiner", "UIMiner", {

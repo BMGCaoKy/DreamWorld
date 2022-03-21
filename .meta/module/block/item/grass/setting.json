@@ -9,34 +9,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/grass04-2.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
+        "asset": "asset/Texture/Block/grass04-2.png"
       },
       "down": {
-        "asset": "asset/Texture/Block/hardened_clay_stained_silver.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/hardened_clay_stained_silver.png"
+        "asset": "asset/Texture/Block/hardened_clay_stained_silver.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/grass04-2.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
+        "asset": "asset/Texture/Block/grass04-2.png"
       },
       "left": {
-        "asset": "asset/Texture/Block/grass04-2.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
+        "asset": "asset/Texture/Block/grass04-2.png"
       },
       "right": {
-        "asset": "asset/Texture/Block/grass04-2.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/grass04-2.png"
+        "asset": "asset/Texture/Block/grass04-2.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/grass04.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/grass04.png"
+        "asset": "asset/Texture/Block/grass04.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c554b1d1d7008f008c068a7184bbcc1b",
+      "setting.json": "146255f36915947d358b933921f7953f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -13,6 +13,12 @@
         "asset": ""
       }
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "boundingVolume": {
       "height": 1.7,
       "radius": 0.43,
@@ -31,7 +37,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "39bce3ab2b0634696c00a38575372c3a",
+      "setting.json": "1037a64cc37bccdd8bdcc67b66ec9fab",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

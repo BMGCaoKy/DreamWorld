@@ -23,6 +23,73 @@
         }
       }
     },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/npc-job",
+        "id": "8546325473651048449",
+        "name": "NPC Job",
+        "position": {
+          "x": -31.51,
+          "y": 53.01,
+          "z": 26.04
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/7c90d499-6e36-46a6-a37d-162e8449cbc6",
+        "id": "8546337266783453185",
+        "name": "CheckPlayer",
+        "position": {
+          "x": -31.621391296387,
+          "y": 53.5,
+          "z": 26.00835609436
+        },
+        "scale": {
+          "x": 3.43265,
+          "y": 0.999996,
+          "z": 3.37061
+        },
+        "size": {
+          "x": 3.43265,
+          "y": 0.999996,
+          "z": 3.37061
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/rock",
+        "id": "8547131323626668033",
+        "name": "rock",
+        "position": {
+          "x": -30.206886291504,
+          "y": 53,
+          "z": 69.337455749512
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/bab4bc03-1f80-47c5-a25f-4d625395493b",
+        "id": "8550456922659176449",
+        "name": "Mine",
+        "position": {
+          "x": -29.93,
+          "y": 53.5,
+          "z": 63.11
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/miner",
+        "id": "8550489949212049409",
+        "name": "miner",
+        "position": {
+          "x": -29.68,
+          "y": 53,
+          "z": 62.38
+        }
+      }
+    ],
     "name": {
       "value": "map_map001"
     },
@@ -32,7 +99,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a38363450f6250b3a4992e3bbd5f8f38"
+      "setting.json": "8a169d5eec89042117cd25d845ec280a"
     },
     "VERSION": "0.18"
   }

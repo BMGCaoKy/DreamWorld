@@ -7,34 +7,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       },
       "down": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       },
       "front": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       },
       "left": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       },
       "right": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       },
       "up": {
-        "asset": "asset/khoi/kiemcuong4.png",
-        "selector": "editor/DreamWorld/asset/khoi/kiemcuong4.png"
+        "asset": "asset/khoi/kiemcuong4.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "013695a0c3e507befd03b5240217f29e",
+      "setting.json": "8ff259a47828be91158f3ff2060b5256",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

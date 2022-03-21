@@ -49,7 +49,7 @@
       }
     ]
   },
-  "canJoinMidway": false,
+  "canJoinMidway": true,
   "defaultMap": "map001",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
@@ -71,9 +71,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "map001",
-    "x": 28,
-    "y": 54,
-    "z": 34
+    "x": -31.0,
+    "y": 53.0,
+    "z": 36.0
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -111,7 +111,7 @@
   "needSave": false,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 1666.6666666667,
+  "nowTime": 10666.666666667,
   "oneDayTime": 600.0,
   "personalSettingUI": {
     "controlMode": true,
@@ -208,9 +208,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": -22.0,
-      "y": 53.0,
-      "z": -107.0
+      "x": -31.0,
+      "y": 53,
+      "z": 36.0
     }
   ],
   "team": [],
@@ -264,7 +264,7 @@
     "global": []
   },
   "waitAtInitPos": true,
-  "waitGoTime": 100,
-  "waitPlayerTime": 100,
-  "waitStartTime": 100
+  "waitGoTime": 0,
+  "waitPlayerTime": 0,
+  "waitStartTime": 0
 }

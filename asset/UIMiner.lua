@@ -5,14 +5,16 @@ function self:onOpen(packet)
     self.Miner:setVisible(false)
     local i=math.random(10,20)
     local value=0
-    Me:setActorPause(true)
+    local codinh=i
+    --Me:setActorPause(true)
     World.Timer(20,function()
         i=i-1
-        value=value+1/i
+        value=value+1/codinh
         self.Loading:setProgress(value)
         if i<0 then 
           UI:closeSceneWindow("UIMiner")
-          Me:setActorPause(false)
+          PackageHandlers.sendClientHandler("addMaterial",{id=1,count=5})
+          --Me:setActorPause(false)
           return false
         else 
           return true

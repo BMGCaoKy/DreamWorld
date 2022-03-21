@@ -1,13 +1,18 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/miner/transfer.actor",
-      "selector": "editor/DreamWorld/asset/miner/transfer.actor"
+      "asset": "asset/miner/transfer.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "canJump": false,
     "canMove": false,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "name": {
@@ -17,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4d21fdf9665934ec6dc8c4f6e5df2ec1",
+      "setting.json": "b342bdca99122c9f99c191292ef22508",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

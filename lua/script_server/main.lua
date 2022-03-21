@@ -9,7 +9,109 @@ local function printTable(tb)
     end
   end
 end
-
+local function formatBalo1(player)
+  local balo=player:getValue("Bag")
+  local material=require "script_common.Material"
+  for k,v in pairs(balo.bag) do
+    if v.type=="Material" then
+      local add=0
+      for kk,vv in pairs(material) do
+        if vv.id==v.id then
+          if vv.stack<v.count then
+            add=v.count-vv.stack
+          elseif v.count+add>vv.stack and vv.stack>v.count then
+            v.count=vv.stack
+            add=v.count+add-vv.stack
+          elseif v.count+add<vv.stack and vv.stack>v.count then
+            v.count=v.count+add
+          end
+        end
+      end
+      if add>0 then
+        balo.bag[#balo.bag+1]=v
+        balo.bag[#balo.bag].count=add
+      end
+    end
+  end
+  if #balo.bag>balo.maxSlot then
+    return -99
+  else
+    player:setValue("Bag",balo)
+    return 1
+  end
+end
+local function formatBalo(player)
+  local balo=player:getValue("Bag")
+  local material=require "script_common.Material"
+  for kk,vv in pairs(material) do
+    
+      local add=0
+      local data={}
+      for k,v in pairs(balo.bag) do
+        if vv.id==v.id then
+          for kkk,vvv in pairs(v) do
+            data[kkk]=vvv
+          end
+          if vv.stack<v.count then
+            add=v.count-vv.stack
+            v.count=vv.stack
+            print(vv.name.." count:"..v.count.." add:"..add)
+          elseif v.count+add>vv.stack and vv.stack>v.count then
+            add=v.count+add-vv.stack
+            v.count=vv.stack
+            print(vv.name.." count:"..v.count.." add:"..add)
+          elseif v.count+add<vv.stack and vv.stack>v.count then
+            v.count=v.count+add
+            print(vv.name.." count:"..v.count.." add:"..add)
+          end
+        end
+      end
+      if add>0 then
+        data.count=add
+        balo.bag[#balo.bag+1]=data
+      end
+   
+  end
+  if #balo.bag>balo.maxSlot then
+    return -99
+  else
+    player:setValue("Bag",balo)
+    return 1
+  end
+end
+local function checkSlotBaloMaterial(player, id,count)
+  local balo=player:getValue("Bag")
+  for k,v in pairs(balo.bag) do
+    if v.id==id then v.count=v.count+count end
+  end
+  local material=require "script_common.Material"
+  for k,v in pairs(balo.bag) do
+    if v.type=="Material" then
+      for kk,vv in pairs(material) do
+        local add=0
+        if vv.id==v.id then
+          if vv.stack<v.count then
+            add=v.count-vv.stack
+          elseif v.count+add>vv.stack and vv.stack>v.count then
+            v.count=vv.stack
+            add=v.count+add-vv.stack
+          elseif v.count+add<vv.stack and vv.stack>v.count then
+            v.count=v.count+add
+          end
+        end
+        if add>0 then
+            balo.bag[#balo.bag+1]=v
+            balo.bag[#balo.bag].count=add
+        end
+      end
+    end
+  end
+  if #balo.bag>balo.maxSlot then
+    return false
+  else
+    return true
+  end
+end
 Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", function(context)
     local player = context.obj1
     local NewPlayer_data=player:getValue("NewPlayer")
@@ -89,3 +191,19 @@ PackageHandlers.registerServerHandler("sendBagToUICraft",function(player,packet)
       return true
     end)
   end)
+
+PackageHandlers.registerServerHandler("addMaterial",function(player,packet)
+  local balo=player:getValue("Bag")
+  local isHave=checkSlotBaloMaterial(player, packet.id,packet.count)
+  if isHave then
+    for k,v in pairs(balo.bag) do
+      if v.id==packet.id then
+       v.count=v.count+packet.count
+        player:setValue("Bag",balo)
+        formatBalo(player)
+      end
+    end
+  else
+    PackageHandlers.sendServerHandler(player,"showNotification",{text="Tui day cho",time=1})
+  end
+end)

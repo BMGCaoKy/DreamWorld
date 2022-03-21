@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       },
       "down": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       },
       "left": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       },
       "right": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png",
-        "selector": "editor/DreamWorld/asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
+        "asset": "asset/Texture/Block/shulker_top_light_blue_light_blue_shulker_box_01.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5d368a3e8801d895f340dcf237c3f593",
+      "setting.json": "964379d8ed0e6fba30905e548be732f0",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
