@@ -1,0 +1,1 @@
+ PackageHandlers.sendServerHandler(params.player,"closeUIMiner")

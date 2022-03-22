@@ -1,13 +1,13 @@
 {
   "_clientScript": [],
   "_serverScript": [],
-  "actorGirlName": "empty.actor",
-  "actorName": "asset/rock/g2038_rock_02.actor",
-  "autoMove": true,
+  "actorGirlName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
+  "actorName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
+  "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
   "avoidCliffHight": 5,
-  "canClick": false,
+  "canClick": true,
   "canHurtMove": true,
   "canJump": true,
   "canMove": true,
@@ -18,9 +18,9 @@
   "clickDistance": 4,
   "collider": {
     "extent": {
-      "x": 5,
-      "y": 5,
-      "z": 5
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
     },
     "offset": {
       "x": 0,
@@ -34,7 +34,7 @@
     },
     "type": "Box"
   },
-  "collision": true,
+  "collision": false,
   "damage": 0,
   "deathHideTime": 20,
   "destroyTime": 0,
@@ -51,7 +51,7 @@
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,
-  "hideName": false,
+  "hideName": true,
   "homeSize": 10,
   "hpBarColor": 4294967551.0,
   "hpBarHeight": 0.2,
@@ -66,7 +66,7 @@
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
-  "name": "entity_rock",
+  "name": "entity_NPC_lo_nung",
   "needCheckTouch": true,
   "randomPlayDeadActions": [
     ""

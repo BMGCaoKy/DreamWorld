@@ -63,7 +63,7 @@ function self:onOpen(packet)
             UI:openWindow("GiveItem","GiveItem","layouts",{time=2})
             PackageHandlers.sendClientHandler("costCraft",{cost=materialCost})
           else
-            UI:openWindow("Notification","Notification","layouts",{text="Nguyen lieu khong du", time=2})
+            UI:openWindow("Notification","Notification","layouts",{text=2, time=2})
           end
         end
       end)

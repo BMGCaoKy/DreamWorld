@@ -1,0 +1,188 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "999dce68-108a-4bd7-a4a6-73aed720eaaa",
+                      "param_name": "player"
+                    },
+                    {
+                      "action": "dbaf5874-5f04-4f02-9e18-17a14c9bb367",
+                      "param_name": "pos"
+                    }
+                  ],
+                  "desc": "EnterRegionMiner",
+                  "script_name": "ScriptableNode"
+                }
+              ],
+              "id": {
+                "value": "55d47fba-f1b1-4e0d-bf81-e7c4ecb89237"
+              },
+              "pos": {
+                "x": 265,
+                "y": 101
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "999dce68-108a-4bd7-a4a6-73aed720eaaa"
+              },
+              "pos": {
+                "x": 622,
+                "y": 172
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a5bd82bb-8771-496e-8670-352c5fe373fe"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "dbaf5874-5f04-4f02-9e18-17a14c9bb367"
+              },
+              "pos": {
+                "x": 596,
+                "y": 307
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a5bd82bb-8771-496e-8670-352c5fe373fe"
+              },
+              "pos": {
+                "x": 912,
+                "y": 340
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "55d47fba-f1b1-4e0d-bf81-e7c4ecb89237"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "5c04239a-b367-4dab-82d3-54eeb14cdd28"
+            },
+            "pos": {
+              "x": 15,
+              "y": 25
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "8db1a5e7-4ff3-4417-a418-430b68fdc760",
+                      "param_name": "player"
+                    }
+                  ],
+                  "desc": "LeaveRegionMine",
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "63b783b8-cd5f-48b5-a2ce-e1423b80dd18"
+              },
+              "pos": {
+                "x": 368,
+                "y": 127
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8db1a5e7-4ff3-4417-a418-430b68fdc760"
+              },
+              "pos": {
+                "x": 706,
+                "y": 229
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "63b783b8-cd5f-48b5-a2ce-e1423b80dd18"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "34dc9d6d-9d9b-446b-b052-ea330498b1e3"
+            },
+            "pos": {
+              "x": 63,
+              "y": 90
+            }
+          },
+          "type": "Trigger_RegionLeave"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "2418c046161ab1638d202e81ec7b3147"
+    },
+    "VERSION": "0.18"
+  }
+}

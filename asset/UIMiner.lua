@@ -8,12 +8,13 @@ function self:onOpen(packet)
     local codinh=i
     --Me:setActorPause(true)
     World.Timer(20,function()
+        PackageHandlers.sendClientHandler("changeActionByBuff")
         i=i-1
         value=value+1/codinh
         self.Loading:setProgress(value)
-        if i<0 then 
+        if i==0 then 
           UI:closeSceneWindow("UIMiner")
-          PackageHandlers.sendClientHandler("addMaterial",{id=1,count=5})
+          PackageHandlers.sendClientHandler("addMaterial",{id=4,count=2})
           --Me:setActorPause(false)
           return false
         else 

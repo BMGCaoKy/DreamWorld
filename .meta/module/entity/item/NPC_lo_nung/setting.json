@@ -1,0 +1,24 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
+      "selector": "editor/DreamWorld_demo/asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor"
+    },
+    "canClick": true,
+    "girlactor": {
+      "asset": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
+      "selector": "editor/DreamWorld_demo/asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_NPC_lo_nung"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "64a6ceff2d43767f4ec3c5d5e6b940e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

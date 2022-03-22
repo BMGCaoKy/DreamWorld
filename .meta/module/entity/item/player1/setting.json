@@ -7,11 +7,12 @@
     ],
     "actorModel": {
       "actorName": {
-        "asset": ""
+        "selector": "editor/DreamWorld_demo/asset/Actor/charactor/charactor_boy/character_boy.actor"
       },
       "girlactor": {
-        "asset": ""
-      }
+        "selector": "editor/DreamWorld_demo/asset/Actor/charactor/charactor_girl/character_girl.actor"
+      },
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
@@ -33,12 +34,92 @@
     "isPlayer": true,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d49b8122-8d0d-4624-8983-274216426312"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/cup_dao_da"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1497ecb6-07c2-43d6-bc92-839937f8029b"
+              },
+              "pos": {
+                "x": 663,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d49b8122-8d0d-4624-8983-274216426312"
+              },
+              "pos": {
+                "x": 980,
+                "y": 228
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1497ecb6-07c2-43d6-bc92-839937f8029b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "39209b65-d1cb-47de-88b5-0ad168e0996e"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1037a64cc37bccdd8bdcc67b66ec9fab",
-      "triggers.bts": ""
+      "setting.json": "9ea847f4434aa80e61839db99b1e053d",
+      "triggers.bts": "053159c78cc27322b06c772b41806328"
     },
     "VERSION": "0.18"
   }

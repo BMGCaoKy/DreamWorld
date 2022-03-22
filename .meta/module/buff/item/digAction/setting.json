@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_digAction"
+    },
+    "replaceAction": [
+      {
+        "beReplacedAction": "idle",
+        "replaceAction": "dig"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b9e04cdf4960a8c02b49d8ffedb95b4f"
+    },
+    "VERSION": "0.18"
+  }
+}

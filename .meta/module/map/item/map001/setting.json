@@ -57,36 +57,44 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/rock",
-        "id": "8547131323626668033",
-        "name": "rock",
-        "position": {
-          "x": -30.206886291504,
-          "y": 53,
-          "z": 69.337455749512
-        }
-      },
-      {
         "__OBJ_TYPE": "Instance_RegionPart",
-        "cfgName": "myplugin/bab4bc03-1f80-47c5-a25f-4d625395493b",
-        "id": "8550456922659176449",
-        "name": "Mine",
+        "cfgName": "myplugin/3273992f-d80c-4ff0-b28c-382835c0b065",
+        "id": "8553234343571095553",
+        "name": "Mine1",
         "position": {
-          "x": -29.93,
-          "y": 53.5,
-          "z": 63.11
+          "x": 68.5,
+          "y": 54.5,
+          "z": -204.5
+        },
+        "scale": {
+          "y": 0.999999,
+          "z": 0.999998
+        },
+        "size": {
+          "y": 0.99999904632568,
+          "z": 0.99999809265137
         }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/miner",
-        "id": "8550489949212049409",
-        "name": "miner",
+        "id": "8553238581576794113",
+        "name": "miner1",
         "position": {
-          "x": -29.68,
-          "y": 53,
-          "z": 62.38
+          "x": 68.5,
+          "y": 54,
+          "z": -204.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/NPC_lo_nung",
+        "id": "8553296794990526465",
+        "name": "NPC_lo_nung",
+        "position": {
+          "x": 51.948863983154,
+          "y": 54.00407409668,
+          "z": -209.58128356934
         }
       }
     ],
@@ -99,7 +107,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8a169d5eec89042117cd25d845ec280a"
+      "setting.json": "46474738bb811f2eb5d8a237378157df"
     },
     "VERSION": "0.18"
   }

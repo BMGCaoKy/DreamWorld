@@ -1,0 +1,7 @@
+REGION_ENTER {
+	ExecScript(player = $obj1, pos = GetEntityPosition(entity = $obj1), script_name = "ScriptableNode")
+}
+
+REGION_LEAVE {
+	ExecScript(player = $obj1, script_name = "ScriptableNode_2")
+}

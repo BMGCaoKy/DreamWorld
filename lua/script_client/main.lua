@@ -30,12 +30,23 @@ PackageHandlers.registerClientHandler("showNotification",function(player,packet)
 end)
 PackageHandlers.registerClientHandler("showUIMiner",function(player,packet)
   UI:openSceneWindow("UIMiner", "UIMiner", {
-    position = {x = -29.68, y =53+1.5, z = 62.38},
+    position = packet.pos,
     rotation = {x = 0, y =0, z =0},
     width = 1,
     height = 1,
     isCullBack = false,
     objID = 0,
     flags = 4}, "layouts", {x = 1}
+  )
+end)
+PackageHandlers.registerClientHandler("showLoadByPos",function(player,packet)
+  UI:openSceneWindow("GiveItemByPos", "GiveItemByPos", {
+    position = packet.pos,
+    rotation = {x = 0, y =0, z =0},
+    width = 1,
+    height = 1,
+    isCullBack = false,
+    objID = 0,
+    flags = 4}, "layouts", {id=packet.id,count=packet.count}
   )
 end)

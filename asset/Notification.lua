@@ -1,5 +1,6 @@
 function self:onOpen(packet)
-  self.BG.Text:setText(packet.text)
+  local txt=require "script_common.Text"
+  self.BG.Text:setText(Lang:toText(txt[packet.text]))
   local i=0
   World.Timer(20,function()
     i=i+1
