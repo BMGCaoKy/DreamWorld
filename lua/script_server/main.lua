@@ -115,7 +115,7 @@ local function formatBalo(player)
           elseif v.count+add<vv.stack and vv.stack>v.count then
             v.count=v.count+add
           elseif v.count==vv.stack then
-            add=v.count
+            --
           end
         end
       end
@@ -295,12 +295,15 @@ PackageHandlers.registerServerHandler("costCraft",function(player,packet)
   local newBag={}
   for k,v in pairs(bag.bag) do
     if v.count>0 then
-      newBag[#newBag+1]=v
+      newBag[lenTb(newBag)+1]=copyTable(v)
     end
   end
   bag.bag=newBag
+  
   player:setValue("Bag",bag)
+  
   formatBalo(player)
+  printtable(player:getValue("Bag"))
 end)
 PackageHandlers.registerServerHandler("sendBagToUIBalo",function(player,packet)
       PackageHandlers.sendServerHandler(player,"getBaloFromServerToBalo",{balo=player:getValue("Bag")})
@@ -357,4 +360,29 @@ PackageHandlers.registerServerHandler("addMaterial",function(player,packet)
 end)
 PackageHandlers.registerServerHandler("changeActionByBuff",function(player,packet)
   player:addBuff("myplugin/digAction",20)
+end)
+
+PackageHandlers.registerServerHandler("addMaterialFurnace",function(player,packet)
+    
+    local lucky=0
+    local id=2
+    lucky=math.random(1,100)
+    if lucky<=1 then
+      id=7
+    elseif lucky<=26 then
+      id=6
+    elseif lucky<=31 then
+      id=5
+    else
+      id=2
+    end
+    PackageHandlers.sendServerHandler(player,"closeFurnace")
+    PackageHandlers.sendServerHandler(player,"showLoadByPos",{id=id,count=1,pos=packet.pos,time=2})
+    
+    
+end)
+
+PackageHandlers.registerServerHandler('showItem',function(player,packet)
+    local material=require "script_common.Material"
+    PackageHandlers.sendServerHandler(player,"openNotificationItem",{count=packet.count,name=material[packet.id].name})
 end)

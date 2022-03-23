@@ -12,6 +12,14 @@ Entity.addValueDef('Bag',{
   maxSlot=4,
   bag={
     {
+    type="Material",
+    id=4,
+    name="Da tho",
+    image="gameres|asset/Texture/Gui/datho.png",
+    describe="Da vua dao duoc",
+    count=2
+  },
+    {
       type="Material",
       id=1,
       name="Go nguyen",

@@ -15,6 +15,7 @@ function self:onOpen(packet)
         if i==0 then 
           UI:closeSceneWindow("UIMiner")
           PackageHandlers.sendClientHandler("addMaterial",{id=4,count=2})
+          PackageHandlers.sendClientHandler("showItem",{id=4,count=2})
           --Me:setActorPause(false)
           return false
         else 

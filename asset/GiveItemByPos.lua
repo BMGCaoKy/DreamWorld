@@ -19,7 +19,8 @@ function self:onOpen(packet)
         id=2
       end]=]--
       PackageHandlers.sendClientHandler("addMaterial",{id=packet.id,count=packet.count})
-      UI:closeWindow(self)
+      UI:closeSceneWindow("GiveItemByPos")
+      PackageHandlers.sendClientHandler("showItem",{id=packet.id,count=packet.count})
       return false
     else
       return true

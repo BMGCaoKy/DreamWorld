@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Mesh/Claw Pickaxe/g1008_pickaxe_13_14.tga",
-      "selector": "editor/DreamWorld_demo/asset/Mesh/Claw Pickaxe/g1008_pickaxe_13_14.tga"
+      "asset": "asset/Mesh/Claw Pickaxe/g1008_pickaxe_13_14.tga"
     },
     "item": {
       "base": {
@@ -13,8 +12,7 @@
       "value": "f6ca6aab-bee3-46a2-bcb5-0dab8fbf54f7"
     },
     "mesh": {
-      "asset": "asset/Mesh/Claw Pickaxe/g1008_pickaxe_13.mesh",
-      "selector": "editor/DreamWorld_demo/asset/Mesh/Claw Pickaxe/g1008_pickaxe_13.mesh"
+      "asset": "asset/Mesh/Claw Pickaxe/g1008_pickaxe_13.mesh"
     },
     "name": {
       "value": "item_cup_dao_da"
@@ -22,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8db7a0ec26f429e4ca37edea350e3008",
+      "setting.json": "c4843570f019ca5a9d966e12472ef79c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

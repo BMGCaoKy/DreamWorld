@@ -1,0 +1,7 @@
+ENTITY_CLICK {
+	ExecScript(
+		player = $obj2,
+		pos = ComputeV3(op = "add", p1 = GetEntityPosition(entity = $obj1), p2 = { __OBJ_TYPE = "Vector3", x = 0, y = 2, z = 0 }),
+		script_name = "ScriptableNode_3"
+	)
+}

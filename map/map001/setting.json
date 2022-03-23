@@ -56,6 +56,17 @@
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/NPC_lo_nung",
+      "properties": {
+        "id": "8554195835045429249",
+        "name": "NPC_lo_nung",
+        "position": "x:34.490875244141 y:60.613319396973 z:33.850242614746",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
     }
   ],
   "skyBox": [

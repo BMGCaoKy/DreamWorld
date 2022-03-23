@@ -3,7 +3,9 @@
   "_serverScript": [],
   "actorGirlName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
   "actorName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
-  "autoMove": false,
+  "attackNpc": false,
+  "autoAttack": false,
+  "autoMove": true,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
   "avoidCliffHight": 5,
@@ -14,13 +16,15 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
     "extent": {
-      "x": 0.6,
-      "y": 1.8,
-      "z": 0.6
+      "x": 1,
+      "y": 2,
+      "z": 1
     },
     "offset": {
       "x": 0,
@@ -34,7 +38,7 @@
     },
     "type": "Box"
   },
-  "collision": false,
+  "collision": true,
   "damage": 0,
   "deathHideTime": 20,
   "destroyTime": 0,
@@ -51,23 +55,30 @@
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,
-  "hideName": true,
+  "hideName": false,
   "homeSize": 10,
   "hpBarColor": 4294967551.0,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
   "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
   "maxHp": 20,
+  "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
   "name": "entity_NPC_lo_nung",
   "needCheckTouch": true,
+  "patrolDistance": 5,
   "randomPlayDeadActions": [
     ""
   ],

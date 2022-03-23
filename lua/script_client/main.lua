@@ -43,10 +43,21 @@ PackageHandlers.registerClientHandler("showLoadByPos",function(player,packet)
   UI:openSceneWindow("GiveItemByPos", "GiveItemByPos", {
     position = packet.pos,
     rotation = {x = 0, y =0, z =0},
-    width = 1,
-    height = 1,
+    width = 2,
+    height = 2,
     isCullBack = false,
     objID = 0,
-    flags = 4}, "layouts", {id=packet.id,count=packet.count}
+    flags = 4}, "layouts", {id=packet.id,count=packet.count,pos=packet.pos,time=packet.time}
   )
+end)
+
+PackageHandlers.registerClientHandler("openFurnace",function(player,packet)
+  UI:openWindow("Furnace","Furnace","layouts",{pos=packet.pos})
+end)
+PackageHandlers.registerClientHandler("closeFurnace",function(player,packet)
+  UI:closeWindow("Furnace")
+end)
+
+PackageHandlers.registerClientHandler("openNotificationItem",function(player,packet)
+  UI:openWindow("NotificationItem","NotificationItem","layouts",{name=packet.name,count=packet.count})
 end)
