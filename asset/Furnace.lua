@@ -32,17 +32,24 @@ function self:onOpen(packet)
       end
     end
     data_ui.Burning.onMouseClick=function()
-      if #packet.balo.bag<packet.balo.maxSlot then
-        if num>0 then
-          --UI:openWindow("GiveItem","GiveItem","layouts",{time=2})
-          PackageHandlers.sendClientHandler("costCraft",{cost={materialCost}})
-          PackageHandlers.sendClientHandler("addMaterialFurnace",{pos=pos})
+      
+      PackageHandlers.sendClientHandler("checkBalo",{data={{id=2,count=1},{id=5,count=1},{id=6,count=1},{id=7,count=1}}},function(p)
+        if p or #packet.balo.bag<packet.balo.maxSlot then
+          if num>0 then
+            --UI:openWindow("GiveItem","GiveItem","layouts",{time=2})
+            PackageHandlers.sendClientHandler("costCraft",{cost={materialCost}})
+            PackageHandlers.sendClientHandler("addMaterialFurnace",{pos=pos})
+          else
+            UI:openWindow("Notification","Notification","layouts",{text=2, time=2})
+          end
         else
-          UI:openWindow("Notification","Notification","layouts",{text=2, time=2})
+          UI:openWindow("Notification","Notification","layouts",{text=1, time=2})
         end
-      else
-        UI:openWindow("Notification","Notification","layouts",{text=1, time=2})
-      end
+      end)
+      
+    
+      
+      
     end
   end)
     

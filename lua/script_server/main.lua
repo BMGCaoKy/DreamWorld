@@ -206,6 +206,71 @@ local function checkSlotBaloMaterial(balo, id,count)
     return true
   end
 end
+local function checkSlotBaloMaterialByTable(balo,data)
+  local material=require "script_common.Material"
+  for kk,vv in pairs(data) do
+    local isFind=false
+    for k,v in pairs(balo.bag) do
+      if v.id==vv.id then 
+        v.count=v.count+vv.count 
+        isFind=true
+      end
+    end
+    if isFind==false then
+      local updateData={}
+      for k,v in pairs(material) do
+        if v.id==vv.id then
+          updateData=copyTable(v)
+          updateData.count=vv.count
+        end
+      end
+      balo.bag[lenTb(balo.bag)+1]=updateData
+    end
+  end
+  local newData={}
+  for kk,vv in pairs(material) do
+      local add=0
+      local data={}
+      for k,v in pairs(balo.bag) do
+        if vv.id==v.id then
+          data=copyTable(v)
+          if vv.stack<v.count then
+            add=v.count-vv.stack
+            v.count=vv.stack
+            print(vv.name.." count:"..v.count.." add:"..add)
+          elseif v.count+add>vv.stack and vv.stack>v.count then
+            add=v.count+add-vv.stack
+            v.count=vv.stack
+            print(vv.name.." count:"..v.count.." add:"..add)
+          elseif v.count+add<vv.stack and vv.stack>v.count then
+            v.count=v.count+add
+            print(vv.name.." count:"..v.count.." add:"..add)
+          elseif v.count==vv.stack then
+            --
+          end
+        end
+      end
+      while add>0 and vv.stack<add do
+        local newData=copyTable(data)
+        newData.count=vv.stack
+        balo.bag[lenTb(balo.bag)+1]=newData
+        add=add-vv.stack
+      end
+      if add>0 and vv.stack>=add then
+        local newData=copyTable(data)
+        newData.count=add
+        balo.bag[lenTb(balo.bag)+1]=newData
+      end
+  end
+  
+  print(lenTb(balo.bag))
+  printtable(balo)
+  if lenTb(balo.bag)>balo.maxSlot then
+    return false
+  else
+    return true
+  end
+end
 
 local function getAllMaterial(player)
   local balo=player:getValue("Bag")
@@ -361,7 +426,12 @@ end)
 PackageHandlers.registerServerHandler("changeActionByBuff",function(player,packet)
   player:addBuff("myplugin/digAction",20)
 end)
-
+PackageHandlers.registerServerHandler("checkBalo",function(player,packet)
+      local balo=player:getValue("Bag")
+      local isHave=checkSlotBaloMaterialByTable(balo,packet.data)
+      print("server: "..tostring(isHave))
+      return isHave
+  end)
 PackageHandlers.registerServerHandler("addMaterialFurnace",function(player,packet)
     
     local lucky=0
