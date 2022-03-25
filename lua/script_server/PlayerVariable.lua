@@ -47,4 +47,10 @@ Entity.addValueDef('Bag',{
 }
 ,false,false,true)
 
+Entity.addValueDef('Inform',{
+  role={id=1},
+  money=0,
+  blackMoney=0
+}
+,false,false,true)
 

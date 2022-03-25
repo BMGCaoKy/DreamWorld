@@ -61,3 +61,7 @@ end)
 PackageHandlers.registerClientHandler("openNotificationItem",function(player,packet)
   UI:openWindow("NotificationItem","NotificationItem","layouts",{name=packet.name,count=packet.count})
 end)
+
+PackageHandlers.registerClientHandler("openGetJob",function(player,packet)
+  UI:openWindow("getJob","getJob","layouts",{inform=packet.inform})
+end)

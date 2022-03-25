@@ -1,30 +1,26 @@
 {
   "_clientScript": [],
   "_serverScript": [],
-  "actorGirlName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
-  "actorName": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor",
-  "attackNpc": false,
-  "autoAttack": false,
-  "autoMove": true,
+  "actorGirlName": "empty.actor",
+  "actorName": "asset/miner/g2038_yushanjia_blue.actor",
+  "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
   "avoidCliffHight": 5,
-  "canClick": true,
+  "canClick": false,
   "canHurtMove": true,
   "canJump": true,
   "canMove": true,
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
-  "chaseDistance": 10,
-  "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
     "extent": {
-      "x": 1,
-      "y": 2,
-      "z": 1
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
     },
     "offset": {
       "x": 0,
@@ -38,7 +34,7 @@
     },
     "type": "Box"
   },
-  "collision": true,
+  "collision": false,
   "damage": 0,
   "deathHideTime": 20,
   "destroyTime": 0,
@@ -61,24 +57,17 @@
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hurtResistantTime": 0,
-  "idleProb": 0,
-  "idleTime": [
-    10,
-    30
-  ],
   "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
   "maxHp": 20,
-  "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
-  "name": "entity_NPC_lo_nung",
+  "name": "entity_wood",
   "needCheckTouch": true,
-  "patrolDistance": 5,
   "randomPlayDeadActions": [
     ""
   ],

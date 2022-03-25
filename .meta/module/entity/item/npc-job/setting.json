@@ -16,12 +16,79 @@
     "hideName": true,
     "name": {
       "value": "entity_npc-job"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "ad609e85-d915-4a30-90b2-2dc14f59b8d1",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_4"
+                }
+              ],
+              "id": {
+                "value": "78ca80bd-b7c8-40f6-bb2e-35f8e1005256"
+              },
+              "pos": {
+                "x": 399,
+                "y": 224
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "ad609e85-d915-4a30-90b2-2dc14f59b8d1"
+              },
+              "pos": {
+                "x": 742,
+                "y": 324
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "78ca80bd-b7c8-40f6-bb2e-35f8e1005256"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "5ea22330-3c42-4bd9-a830-713e795d2fe3"
+            },
+            "pos": {
+              "x": 197,
+              "y": 144
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3c050346cba9620e76cfb7955dd68b26",
-      "triggers.bts": ""
+      "setting.json": "17dd1f4c3a7ad4a9c258036d8262e137",
+      "triggers.bts": "95ea2d9981700ca3f5a23190ccecee18"
     },
     "VERSION": "0.18"
   }

@@ -8,9 +8,9 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "x": 66,
-        "y": 54,
-        "z": -208
+        "x": -37.0,
+        "y": 53.0,
+        "z": 44.0
       }
     },
     "nowTime": {
@@ -24,15 +24,16 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 66,
-        "z": -208
+        "x": -37.0,
+        "y": 53.0,
+        "z": 44.0
       }
     },
     "unlimitedPlayTime": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d8db88c137e6125965d10ef6140d198c",
+      "setting.json": "811216b0b6cd9679c3ec315fc6f0539d",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

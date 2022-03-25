@@ -99,13 +99,32 @@
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/NPC_lo_nung",
-        "id": "8554195835045429249",
-        "name": "NPC_lo_nung",
+        "config": "myplugin/wood",
+        "id": "8555979201940897793",
+        "name": "wood1",
         "position": {
-          "x": 34.490875244141,
-          "y": 60.613319396973,
-          "z": 33.850242614746
+          "x": -122.96563720703,
+          "y": 51.5,
+          "z": -69.322280883789
+        },
+        "scale": {
+          "x": 1.19169
+        },
+        "size": {
+          "x": 1.1916898488998,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/2520f10e-043e-41aa-a9d1-078114f9f054",
+        "id": "8556013385281650689",
+        "name": "Wood1",
+        "position": {
+          "x": -123,
+          "y": 53.5,
+          "z": -69.5
         }
       }
     ],
@@ -118,7 +137,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bab87b1149316da88a4fe1ea7407c86f"
+      "setting.json": "c715cf6511c77afe24f3048a0c1b2aed"
     },
     "VERSION": "0.18"
   }

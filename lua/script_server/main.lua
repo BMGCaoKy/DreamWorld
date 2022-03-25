@@ -339,13 +339,6 @@ Trigger.RegisterHandler(World.cfg, "GAME_START", function()
           PackageHandlers.sendServerHandler(context.obj1,"closeTutorial_1")
         end
     end)
-  --[=[local mineRegion = map:addRegion(Lib.v3(-29.68, 53, 62.38), Lib.v3(-29.68, 53, 62.38), "myplugin/bab4bc03-1f80-47c5-a25f-4d625395493b")
-  Trigger.RegisterHandler(mineRegion.cfg, "REGION_ENTER", function(context)
-    PackageHandlers.sendServerHandler(context.obj1,"showUIMiner",{pos=Lib.v3(-29.68, 53+1.5, 62.38)})
-  end)
-  Trigger.RegisterHandler(mineRegion.cfg, "REGION_LEAVE", function(context)
-    PackageHandlers.sendServerHandler(context.obj1,"closeUIMiner")
-  end)]=]--
 end)
 PackageHandlers.registerServerHandler("costCraft",function(player,packet)
   local bag=player:getValue("Bag")
@@ -456,3 +449,18 @@ PackageHandlers.registerServerHandler('showItem',function(player,packet)
     local material=require "script_common.Material"
     PackageHandlers.sendServerHandler(player,"openNotificationItem",{count=packet.count,name=material[packet.id].name})
 end)
+PackageHandlers.registerServerHandler('changeJob',function(player,packet)
+    local inform=player:getValue("Inform")
+    if packet.cost<=inform.money then
+      inform.money=inform.money-packet.cost
+      inform.role.id=packet.id
+      inform.role.name=packet.name
+      player:setValue("Inform",inform)
+      PackageHandlers.sendServerHandler(player,"showNotification",{text=7,time=3})
+    else
+      PackageHandlers.sendServerHandler(player,"showNotification",{text=8,time=3})
+    end
+    
+end)
+
+require "script_server.Miner"

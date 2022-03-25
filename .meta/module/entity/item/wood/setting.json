@@ -1,0 +1,22 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/miner/g2038_yushanjia_blue.actor",
+      "selector": "editor/DreamWorld_demo/asset/miner/g2038_yushanjia_blue.actor"
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_wood"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "45cc50e898d1ac4251ea20f38281f7be",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

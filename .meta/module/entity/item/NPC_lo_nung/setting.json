@@ -22,6 +22,7 @@
     "girlactor": {
       "asset": "asset/Actor/Shiny Penguin Drawing Board/g2020_tuyahuaban.actor"
     },
+    "hideName": true,
     "name": {
       "value": "entity_NPC_lo_nung"
     },
@@ -172,7 +173,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "694118551b390ca0311a0194be6e0d8b",
+      "setting.json": "e2a119c6b350e9d427931ba664cfbb9c",
       "triggers.bts": "75633694b4d3b112476ffd6b2923801e"
     },
     "VERSION": "0.18"
