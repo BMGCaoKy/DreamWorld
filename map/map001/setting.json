@@ -78,6 +78,17 @@
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/NPC_shop_miner",
+      "properties": {
+        "id": "8557234401854652417",
+        "name": "NPC_shop_miner",
+        "position": "x:54.898876190186 y:54.0 z:-209.3325958252",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
     }
   ],
   "skyBox": [

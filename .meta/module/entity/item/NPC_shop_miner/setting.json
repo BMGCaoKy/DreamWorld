@@ -1,0 +1,82 @@
+{
+  "data": {
+    "canClick": true,
+    "name": {
+      "value": "entity_NPC_shop_miner"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "e06c9b21-24be-4d88-baa4-39e3fd962204",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_5"
+                }
+              ],
+              "id": {
+                "value": "5d367581-a3ce-43d9-87ec-0bc9676f5241"
+              },
+              "pos": {
+                "x": 382,
+                "y": 198
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "e06c9b21-24be-4d88-baa4-39e3fd962204"
+              },
+              "pos": {
+                "x": 710,
+                "y": 330
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "5d367581-a3ce-43d9-87ec-0bc9676f5241"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "20fcc120-36af-4c23-b30a-a0907d79a191"
+            },
+            "pos": {
+              "x": 149,
+              "y": 149
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "32cd6a750961c2523552bee72e1a10b7",
+      "triggers.bts": "f43e41cc54dfab6fb3db0161197323cd"
+    },
+    "VERSION": "0.18"
+  }
+}

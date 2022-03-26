@@ -12,6 +12,7 @@ Entity.addValueDef('Bag',{
   maxSlot=4,
   bag={
     {
+    price=30,
     type="Material",
     id=4,
     name="Da tho",
@@ -20,6 +21,7 @@ Entity.addValueDef('Bag',{
     count=2
   },
     {
+      price=0,
       type="Material",
       id=1,
       name="Go nguyen",
@@ -28,6 +30,8 @@ Entity.addValueDef('Bag',{
       count=10
     },
     {
+      price=10,
+      src="Miner",
       type="Material",
       id=2,
       name="Sat",
@@ -36,6 +40,7 @@ Entity.addValueDef('Bag',{
       count=5
     },
     {
+      price=20,
       type="Material",
       id=3,
       name="Vai",

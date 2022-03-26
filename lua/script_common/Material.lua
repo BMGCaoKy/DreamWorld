@@ -1,5 +1,6 @@
 return {
   {
+    price=0,
     type="Material",
     id=1,
     name="Go nguyen",
@@ -8,6 +9,8 @@ return {
     stack=10
   },
   {
+    price=10,
+    src="Miner",
     type="Material",
     id=2,
     name="Sat",
@@ -16,6 +19,7 @@ return {
     stack=10
   },
   {
+    price=20,
     type="Material",
     id=3,
     name="Vai",
@@ -24,6 +28,7 @@ return {
     stack=10
   },
   {
+    price=30,
     type="Material",
     id=4,
     name="Da tho",
@@ -32,6 +37,8 @@ return {
     stack=10
   },
   {
+    price=40,
+    src="Miner",
     type="Material",
     id=5,
     name="Dong",
@@ -40,6 +47,8 @@ return {
     stack=10
   },
   {
+    price=50,
+    src="Miner",
     type="Material",
     id=6,
     name="Vang",
@@ -48,6 +57,8 @@ return {
     stack=10
   },
    {
+     price=60,
+    src="Miner",
     type="Material",
     id=7,
     name="Kim cuong",

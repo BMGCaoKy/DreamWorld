@@ -65,3 +65,7 @@ end)
 PackageHandlers.registerClientHandler("openGetJob",function(player,packet)
   UI:openWindow("getJob","getJob","layouts",{inform=packet.inform})
 end)
+
+PackageHandlers.registerClientHandler("openShopMiner",function(player,packet)
+  UI:openWindow("ShopMiner","ShopMiner","layouts",{inform=packet.inform, balo=packet.balo})
+end)

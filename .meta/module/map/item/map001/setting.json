@@ -126,6 +126,17 @@
           "y": 53.5,
           "z": -69.5
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/NPC_shop_miner",
+        "id": "8557234401854652417",
+        "name": "NPC_shop_miner",
+        "position": {
+          "x": 54.898876190186,
+          "y": 54.0,
+          "z": -209.3325958252
+        }
       }
     ],
     "name": {
@@ -137,7 +148,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c715cf6511c77afe24f3048a0c1b2aed"
+      "setting.json": "c72913c3cda03aed9f4dbe4d205beefd"
     },
     "VERSION": "0.18"
   }

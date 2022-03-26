@@ -340,13 +340,72 @@ Trigger.RegisterHandler(World.cfg, "GAME_START", function()
         end
     end)
 end)
+PackageHandlers.registerServerHandler("addMoneyByMaterialId",function(player,packet)
+    local material=require "script_common.Material"
+    local inform=player:getValue("Inform")
+    for k,v in pairs(material) do
+      if v.id==packet.id then
+        inform.money=inform.money+v.price
+        break
+      end
+    end
+    player:setValue("Inform",inform)
+end)
+
+PackageHandlers.registerServerHandler("costShop",function(player,packet)
+  local bag=player:getValue("Bag")
+  local material=require "script_common.Material"
+  bag.bag=getAllMaterial(player)
+  for k,v in pairs(bag.bag) do
+    for kk,vv in pairs(packet.cost) do
+      if v.id==vv.id then
+        if v.count>=vv.count then
+          v.count=v.count-vv.count
+          
+          
+          local inform=player:getValue("Inform")
+          for k,v in pairs(material) do
+            if v.id==vv.id then
+              inform.money=inform.money+v.price*vv.count
+              break
+            end
+          end
+          player:setValue("Inform",inform)
+          PackageHandlers.sendServerHandler(player,"showNotification",{text=10,time=2})
+        else
+          PackageHandlers.sendServerHandler(player,"showNotification",{text=2,time=2})
+        end
+        break
+        
+      end
+    end
+  end
+  local newBag={}
+  for k,v in pairs(bag.bag) do
+    if v.count>0 then
+      newBag[lenTb(newBag)+1]=copyTable(v)
+    end
+  end
+  bag.bag=newBag
+  
+  player:setValue("Bag",bag)
+  
+  formatBalo(player)
+  printtable(player:getValue("Bag"))
+end)
+
+
 PackageHandlers.registerServerHandler("costCraft",function(player,packet)
   local bag=player:getValue("Bag")
   bag.bag=getAllMaterial(player)
   for k,v in pairs(bag.bag) do
     for kk,vv in pairs(packet.cost) do
       if v.id==vv.id then
-        v.count=v.count-vv.count
+        if v.count>=vv.count then
+          v.count=v.count-vv.count
+        end
+        break
+        
       end
     end
   end
@@ -376,15 +435,18 @@ PackageHandlers.registerServerHandler("sendBagToUIFurnace",function(player,packe
       balo.bag=getAllMaterial(player)
       PackageHandlers.sendServerHandler(player,"getBaloFromServerToFurnace",{balo=balo})
   end)
+PackageHandlers.registerServerHandler("sendBagToShop",function(player,packet)
+      local balo=player:getValue("Bag")
+      local inform=player:getValue("Inform")
+      balo.bag=getAllMaterial(player)
+      PackageHandlers.sendServerHandler(player,"getBaloFromServerToShop",{balo=balo,inform=inform})
+  end)
 PackageHandlers.registerServerHandler("addMaterial",function(player,packet)
-    print("them vp id:"..packet.id.." so luong "..packet.count)
   local balo=player:getValue("Bag")
   balo.bag=getAllMaterial(player)
   player:setValue("Bag",balo)
   balo=player:getValue("Bag")
-  
   local isHave=checkSlotBaloMaterial(balo, packet.id,packet.count)
-  
   if isHave then
     local isFind=false
     balo=player:getValue("Bag")

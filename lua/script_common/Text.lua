@@ -8,4 +8,5 @@ return {
   "Chuyen nghe thanh cong", --main server
   "Khong du tien",--main server
   "chi phi: ",--file costJob
+  "Ban thanh cong",
   }
